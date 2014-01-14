@@ -113,7 +113,7 @@ $(document).ready(function () {
             commBroker.setValue('key', crumb);
 
             if ($("option:selected", Elements.REMEMBER_ME).val() == 'on')
-                $.cookie('signagestudioweblite', crumb, { expires: 300 });
+                $.cookie('nv3cloudstudio', crumb, { expires: 300 });
 
         } else {
             // todo: fix dialog with proper messages
