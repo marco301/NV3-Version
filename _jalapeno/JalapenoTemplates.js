@@ -1,5 +1,28 @@
 var JalapenoTemplate = {
 
+/** This is the resolution for the 1912 unit.**/
+
+HORIZONTAL1912: {
+
+        '1920x1080': {
+
+            screenType0: {
+
+                sd0: {
+                    id: 'horizontal_1920x1080_screenType0_sd0',
+                    x: 0,
+                    y: 0,
+                    w: 1920,
+                    h: 1080
+                }
+            }
+        }
+},
+
+
+
+
+
     HORIZONTAL: {
 
         '1920x1080': {
