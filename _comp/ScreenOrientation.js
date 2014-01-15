@@ -61,8 +61,8 @@ ScreenOrientation.prototype = {
         /** Does (elements.IMG_HORIZONTAL) call my image and where does it go/ what does it do? **/
         
         });$(Elements.IMG_HORIZONTAL1912).tap(function (e) {
-            commBroker.getService('ScreenOrientation').setOrientation(ScreenOrientation.HORIZONTAL1912)
-            self._selectOrientation(ScreenOrientation.HORIZONTAL1912, true)
+            commBroker.getService('ScreenOrientation').setOrientation(ScreenOrientation.HORIZONTAL)
+            self._selectOrientation(ScreenOrientation.HORIZONTAL, true)
             commBroker.getService('ScreenResolution').setResolution(undefined)
         });
     },
