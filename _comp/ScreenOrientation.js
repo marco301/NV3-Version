@@ -23,7 +23,7 @@ ScreenOrientation.HORIZONTAL = 'HORIZONTAL';
  **/
  
  /** This setting allows the user to select the NV3 1912 screen orientation and templates catered to the equipment.**/
- ScreenOrientation.HORIZONTAL = 'HORIZONTAL';
+ ScreenOrientation.HORIZONTAL1912 = 'HORIZONTAL1912';
  /** ^code added first(note for debugging purposes)**/
  
  
@@ -61,8 +61,8 @@ ScreenOrientation.prototype = {
         /** Does (elements.IMG_HORIZONTAL) call my image and where does it go/ what does it do? **/
         
         });$(Elements.IMG_HORIZONTAL1912).tap(function (e) {
-            commBroker.getService('ScreenOrientation').setOrientation(ScreenOrientation.HORIZONTAL)
-            self._selectOrientation(ScreenOrientation.HORIZONTAL, true)
+            commBroker.getService('ScreenOrientation').setOrientation(ScreenOrientation.HORIZONTAL1912)
+            self._selectOrientation(ScreenOrientation.HORIZONTAL1912, true)
             commBroker.getService('ScreenResolution').setResolution(undefined)
         });
     },
