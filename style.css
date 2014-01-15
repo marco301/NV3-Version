@@ -569,6 +569,11 @@ label.ui-btn {
     cursor: pointer;
 }
 
+#imgHorizontal1912 {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
 #playListSelectArrowLeft:active, #playListSelectArrowRight:active {
     background: #E4E4E4;
 }
