@@ -23,7 +23,7 @@ ScreenOrientation.HORIZONTAL = 'HORIZONTAL';
  **/
  
  /** This setting allows the user to select the NV3 1912 screen orientation and templates catered to the equipment.**/
- ScreenOrientation.HORIZONTAL1912 = 'HORIZONTAL';
+ ScreenOrientation.HORIZONTAL = 'HORIZONTAL';
  /** ^code added first(note for debugging purposes)**/
  
  
