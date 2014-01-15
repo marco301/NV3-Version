@@ -97,6 +97,7 @@ Elements.ADD_NEW_SCREEN_BUTTON = '#addNewScreenButton';
 
 Elements.IMG_VERTICAL = '#imgVertical';
 Elements.IMG_HORIZONTAL = '#imgHorizontal';
+Elements.IMG_HORIZONTAL1912 = '#imgHorizontal1912'; /** Where does #imgHorizontal1912 pull my image from**/  
 Elements.CAMPAIGN_SELECTOR_VIEW = '#campaignSelectorView';
 Elements.ORIENTATION_VIEW = '#orientationView';
 Elements.RESOLUTION_VIEW = '#resolutionView';
